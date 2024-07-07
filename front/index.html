@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mon site web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Some interesting information</h1>
+    <!-- On va utiliser l'ID pour mettre à jour cette information -->
+    <div class="content">
+      <button id="fetch-button">Fetch hi mom from API</button>
+      <button id="fetch-button1">Fetch world from API</button>
+      <button id="fetch-button2">Fetch friend from API</button>
+      <button id="fetch-button3">Fetch catto from API</button>
+      <button id="fetch-button4">Fetch doggo from API</button><br>
+      <div class="a"><label for="check">Familiar ?</label><input type="checkbox" id="check"  /></div>
+    </div>
+    <div class="content" id="data-to-replace">Hello world!</div>
+
+    <!-- Script qui permet de fetch depuis votre API -->
+    <script src="index.js"></script>
+  </body>
+</html>
